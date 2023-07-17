@@ -21,7 +21,7 @@ public class FindFirstNonRepeatEle {
         String str1="ilovejavatechie";
 
         // actually internally the hashmap doesnt follow insertion order so it gives o/p : c the actual o/p : l
-        // BY using LinkedHashMap::new we will tell the stream dont follow this way and we will get o/p: l
+        // BY using LinkedHashMap::new we will tell the stream do follow this way and we will get o/p: l
         // the o/p should be l
 
         String firstNonRepeatElement = Arrays.stream(str1.split(""))
