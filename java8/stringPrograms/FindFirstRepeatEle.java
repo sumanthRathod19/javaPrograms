@@ -1,4 +1,4 @@
-package stringPrograms;
+package java8.stringPrograms;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
